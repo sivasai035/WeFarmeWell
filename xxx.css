@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+li{
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    width: auto;
+}
+a{
+    display: block;
+    color: rgb(253, 252, 252);
+    padding: 13px;
+    margin: 8px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+nav{
+    background-color: rgb(109, 35, 35);
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    text-align: center;
+}
+li :hover {
+   background-color: rgb(124, 89, 89);
+   border-radius: 6px;
+}
+h3{
+    float: left;
+    padding: 10px;
+    margin-top: 9px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    padding-left: 5px;
+}
+.navbar-brand{
+    float: left;
+    padding: 1px;
+    margin-right: 0px;
+    margin-left: 25px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    padding-right: 0px;
+}
+.imgg{
+    margin-top: 6px;
+    
+}
+.navigation{
+    position: absolute;
+    width: 100%;
+}
+.undernav{
+    background-image:linear-gradient(180deg,hsla(204, 8%, 76%,0.7),hsla(210, 29%, 24%,0.7)), url(paddybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
