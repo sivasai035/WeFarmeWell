@@ -28,7 +28,7 @@ li :hover {
    background-color: rgb(124, 89, 89);
    border-radius: 6px;
 }
-h3{
+.Title{
     float: left;
     padding: 10px;
     margin-top: 9px;
@@ -56,10 +56,93 @@ h3{
     width: 100%;
 }
 .undernav{
-    background-image:linear-gradient(180deg,hsla(204, 8%, 76%,0.7),hsla(210, 29%, 24%,0.7)), url(paddybg.jpg);
+    background-image:linear-gradient(180deg,rgba(10, 10, 10, 0.7),rgba(37, 32, 1, 0.7)), url(today-mod.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     width: 100%;
     height: 100vh;
+}
+.far-reg-but{
+    color: rgb(252, 247, 247);
+    background-color: rgb(53, 66, 31);
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px ;
+    margin: 11px 9px;
+    border-style: hidden;
+    float: right;
+}
+.far-reg-but:hover{
+    background-color: rgb(59, 65, 45);
+    padding: 18px;
+}
+.getrice{
+    color: rgb(253, 227, 227);
+    text-align: center;
+    padding-top: 175px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.wedont{
+    color: white;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: rgb(253, 227, 227);
+    padding-top: 8px;
+    font-family: 'Comfortaa', cursive;
+}
+.Boost{
+    text-align: center;
+    color: rgb(151, 167, 107);
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+}
+.order{
+    color: white;
+    background-color: rgb(138, 161, 70);
+    position: absolute;
+    justify-content: center;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 17px;
+    border-style: none;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.order-div{
+    text-align: center;
+}
+.order:hover{
+    background-color:rgb(157, 187, 81);
+    padding: 17px;
+}
+.sec-div{
+    background-color: rgb(117, 103, 117);
+    margin: 2px;
+}
+.below-img{
+    margin: 60px 25px 50px ;
+    border-style: solid;
+    padding: 20px 60px 20px 60px;
+    border-radius: 10px;
+    background-color: rgb(233, 231, 231);
+    font-size: 20px;
+    border-color: rgb(182, 181, 181);
+    box-shadow: 50px;
+    
+}
+.box{
+    display: flex;
+}
+.click-but{
+    border-style: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(233, 231, 231);
 }
